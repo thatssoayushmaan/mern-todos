@@ -10,6 +10,8 @@ connectDB()
 
 const todoRoute = require('./routers/todo.router')
 
+const path = require('path')
+
 //MiddleWare
 app.use(express.json())
 app.use(cors())
